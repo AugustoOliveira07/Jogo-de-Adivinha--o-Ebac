@@ -1,0 +1,77 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(95deg, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+  max-width: 500px;
+  width: 100%;
+}
+h1{
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: #ffd700;
+    text-shadow: 2px 2px 6px #000;
+}
+p{ 
+    font-size: 1rem;
+    margin: 8px 0;
+    line-height: 1.4rem;
+}
+input{
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px 0;
+    width: 200px;
+    transition: 0.3s;
+}
+input:focus{
+    outline: none;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #ffd700;
+}
+button{
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: #ff3b2e;
+    transform: scale(1.1);
+    box-shadow: 0 0 12px #ff3b2e;
+}
+#resultado, #resultado2{
+     font-size: 1.2rem;
+     margin-top: 15px;
+     font-weight: bold;
+     text-shadow: 1px 1px 4px black;
+}
